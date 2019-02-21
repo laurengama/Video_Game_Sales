@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Project 2</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default">
+      <div class="container-fluid">
+          <div class="navbar-header">
+
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href=""><strong>Video Game Sales</strong></a></li>
+              <li><a href="sales/NA_Sales"target="_blank">NA JSON Data</a></li>
+              <li><a href="sales/EU_Sales"target="_blank">EU JSON Data</a></li>
+              <li><a href="sales/JP_Sales"target="_blank">JP JSON Data</a></li>
+              <li><a href="sales/Other_Sales"target="_blank">Other JSON Data</a></li>
+              <li><a href="sales/Global_Sales"target="_blank">Global JSON Data</a></li>
+              <li><a href="https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings"target="_blank">Kaggle Data Source</a></li>
+            </ul>
+          </div>
+      </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1>Video Game Unit Sales</h1>
+        <p>Use the interactive charts below to explore the dataset. The dataset contains
+          data up to 2016 from video game units sold from Vgchartz and corresponding ratings from Metacritic.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-2">
+        <div class="well">
+          <h5><strong>Select Region:</strong></h5>
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <h1 class="text">Total Sales By Genre</h1>
+        <div id="pie1"></div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="text">Total Sales By Genre</h1>
+        <div id="bar1"></div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="text">Total Sales By Publisher</h1>
+        <div id="bar2"></div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="text">Total Sales By Platform</h1>
+        <div id="bar3"></div>
+      </div>
+    </div>
+
+    <br>
+  
+    <div class="row">
+      <div class="col-md-12" id="pie-chart">
+        <h1 class="text">Total Sales By ESRB Rating</h1>
+        <div id="pie2"></div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="text">Total Sales By Critic Scores</h1>
+        <div id="plot1"></div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="text">Total Sales By User Scores</h1>
+        <div id="plot2"></div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text">Total Sales By Year</h1>
+            </canvas><canvas id="line"></canvas>
+        </div>
+    </div>
+
+
+  </div>
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
+  <script src="static/js/app.js"></script>
+
+</body>
+
+</html>
