@@ -10,21 +10,23 @@ For this project, we were prompted to create a business presentation. We were al
 Using a flask app and D3.js we were able to pull data from the csv file and create various sales charts. A drop-down menu on the page allows the user to toggle between the following regions: Global, North American, European, Japanese, and Other. Making a selection then reveals graphs depicting sales against a number of variables. Users can then gain an understanding of which types of video games fare best in different regions of the world.
 
 #### Team Efforts
-Kevin was responsible for creating the flask app and adding CSS styling to our page. Myke was responsible for pulling findings from the data to report in our business presentation. I was responsible for creating the D3 charts and organizing them in the HTML. 
+Kevin was responsible for creating the flask app and adding CSS styling to our page. Myke was responsible for pulling findings from the data to report in our business presentation. I was responsible for creating the D3 charts and organizing them in the HTML page. 
 
 #### Individual Responsibilities
-* Build pie chart for sales by genre.
-* Build bar chart for sales by genre.
-* Build bar chart for sales by publisher.
-* Build bar chart for sales by platform.
-* Build pie chart for sales by ESRB Rating.
-* Build scatter plot for sales by critic scores.
-* Build scatter plot for sales by user scores.
+* Use plotly to build pie chart for sales by genre.
+* Use plotly to build bar chart for sales by genre.
+* Use plotly to build bar chart for sales by publisher.
+* Use plotly to build bar chart for sales by platform.
+* Use plotly to build pie chart for sales by ESRB Rating.
+* Use plotly to build scatter plot for sales by critic scores.
+* Use plotly to build scatter plot for sales by user scores.
 * Create HTML page. 
 * Use bootstrap to display charts and drop-down menu.
 
 #### Challenges
-
+When we first plotted sales by genre in both a pie chart and a bar graph, the two visualizations displayed different results. Despite being based off the same data, the two charts were showing different genres as producing the most sales. This meant that at least one chart was wrong. After some digging we found that plotly was summing total sales in the pie chart, but was displaying only the first value for each genre in the bar graph. Because we needed sums in our bar graph too, we used this knowledge to search for an aggregation function, added it to our data code, and produced a graph that was more accurate. If we had taken plotly for granted, we would have misrepresented what was actually happening in our data.
 
 #### Improvements
+In the future, we'd like to enahnce our visualizations - perhaps with the help of Tableau - to bring more depth, interactivity, and beauty. We would also like to incorporate other relevant data, such as online gaming data, as well as statistical analyses to paint a more accurate picture of the market.
+
 
