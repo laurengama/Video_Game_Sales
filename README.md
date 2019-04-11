@@ -1,4 +1,6 @@
-# Video_Game_Sales
+# Video Game Sales
+
+## Summary
 
 #### Description
 Our data science group project depicts video game sales from the 1980s to 2016. Users can utilize a drop-down menu to view data by region and see how sales varied by genre, publisher, platform, ESRB Rating, critic scores, user scores, and year.
@@ -28,5 +30,25 @@ When we first plotted sales by genre in both a pie chart and a bar graph, the tw
 
 #### Improvements
 In the future, we'd like to enahnce our visualizations - perhaps with the help of Tableau - to bring more depth, interactivity, and beauty. We would also like to incorporate other relevant data, such as online gaming data, as well as statistical analyses to paint a more accurate picture of the market.
+
+
+## Take a look for yourself!
+
+#### Step 1
+Download all the files and folders in this repo.
+
+#### Step 2
+Open the app.py file in a code editor (I used Visual Studio Code).
+
+#### Step 3
+Use the command line to run the file:
+python app.py
+
+#### Step 4
+Use Ctrl + click on the local server link (http://127.0.0.1:5000/)
+
+#### Step 5
+This should open the project in a tab in your web browser.
+
 
 
