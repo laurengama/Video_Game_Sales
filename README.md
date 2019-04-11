@@ -35,20 +35,22 @@ In the future, we'd like to enahnce our visualizations - perhaps with the help o
 ## Take a look for yourself!
 
 #### Step 1
-Download all the files and folders in this repo.
+* Download all the files and folders in this repo.
 
 #### Step 2
-Open the app.py file in a code editor (I used Visual Studio Code).
+* Open the app.py file in a code editor (I used Visual Studio Code).
 
 #### Step 3
-Use the command line to run the file:
-python app.py
+* Use the command line to run the file:
+* python app.py
 
 #### Step 4
-Use Ctrl + click on the local server link (http://127.0.0.1:5000/)
+* Use Cmd + click (or Ctrl + click for PC) on the local server link. It should look something like this:
+* http://127.0.0.1:5000/
 
 #### Step 5
-This should open the project in a tab in your web browser.
+* This should automatically open the project in a tab in your web browser.
+* If not, you can copy and paste the local server link into your browser.
 
 
 
