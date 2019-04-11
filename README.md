@@ -52,5 +52,8 @@ In the future, we'd like to enahnce our visualizations - perhaps with the help o
 * This should automatically open the project in a tab in your web browser.
 * If not, you can copy and paste the local server link into your browser.
 
+#### Step 6
+* Use the drop-down menu to view sales in different regions.
+
 
 
