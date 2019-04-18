@@ -29,7 +29,7 @@ Kevin was responsible for creating the flask app and adding CSS styling to our p
 When we first plotted sales by genre in both a pie chart and a bar graph, the two visualizations displayed different results. Despite being based off the same data, the two charts were showing different genres as producing the most sales. This meant that at least one chart was wrong. After some digging we found that plotly was summing total sales in the pie chart, but was displaying only the first value for each genre in the bar graph. Because we needed sums in our bar graph too, we used this knowledge to search for an aggregation function, added it to our data code, and produced a graph that was more accurate. If we had taken plotly for granted, we would have misrepresented what was actually happening in our data.
 
 #### Improvements
-In the future, we'd like to enahnce our visualizations - perhaps with the help of Tableau - to bring more depth, interactivity, and beauty. We would also like to incorporate other relevant data, such as online gaming data, as well as statistical analyses to paint a more accurate picture of the market.
+In the future, we'd like to enhance our visualizations - perhaps with the help of Tableau - to bring more depth, interactivity, and beauty. We would also like to incorporate other relevant data, such as online gaming data, as well as statistical analyses to paint a more accurate picture of the market.
 
 
 ## Take a look for yourself!
