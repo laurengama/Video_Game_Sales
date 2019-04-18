@@ -1,4 +1,5 @@
 # Video Game Sales
+Lauren Gama, Kevin Menz, Myke London
 
 ## Summary
 
